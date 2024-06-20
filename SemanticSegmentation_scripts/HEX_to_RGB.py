@@ -27,7 +27,7 @@ class RGB_to_2DLabels:
             conv_mask[np.all(original_mask == el, axis = -1)]  = new_label
             new_label+=1
         # now let's remove the other channels except the first
-        conv_mask = conv_mask[::,0]
+        conv_mask = conv_mask[:,:,0]
         return conv_mask
         
     
