@@ -16,17 +16,18 @@ I crop from the top left corner, so losing some info  of the images
 class PatchesGenerator:
     ''' this takes the patch size such that each new patch have the following shape (patch_size, patch_size)
     and PATH is the path for the dataset directory'''
-    image_dataset = []
-    mask_dataset = []  
+   
     
     def __init__(self, patch_size, PATH) -> None:
         self.PATH = PATH
-        self.size = patch_size
+        self.patch_size= patch_size
+        self.image_dataset = []
+        self.mask_dataset = []  
     
     def crop_image_creating(self):
         for path, subdir, files in os.walk(self.PATH):
             # filter out the masks
-            name_dir = path.split(os.path.sep)[1]
+            name_dir = path.split(os.path.sep)[-1]
             if name_dir == "images":
                 images = os.listdir(path)
                 for i,name in enumerate(images):
