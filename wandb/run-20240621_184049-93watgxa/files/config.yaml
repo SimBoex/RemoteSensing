@@ -3,12 +3,12 @@ wandb_version: 1
 _wandb:
   desc: null
   value:
-    python_version: 3.11.9
+    python_version: 3.8.18
     cli_version: 0.17.2
     framework: keras
     is_jupyter_run: true
     is_kaggle_kernel: false
-    start_time: 1718977563
+    start_time: 1718988049
     t:
       1:
       - 2
@@ -26,7 +26,7 @@ _wandb:
       - 3
       - 8
       - 23
-      4: 3.11.9
+      4: 3.8.18
       5: 0.17.2
       8:
       - 1

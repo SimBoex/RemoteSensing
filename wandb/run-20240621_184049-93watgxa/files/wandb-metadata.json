@@ -1,8 +1,8 @@
 {
     "os": "macOS-14.4.1-arm64-arm-64bit",
-    "python": "3.11.9",
-    "heartbeatAt": "2024-06-21T13:46:05.182437",
-    "startedAt": "2024-06-21T13:46:03.674934",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-06-21T16:40:50.903303",
+    "startedAt": "2024-06-21T16:40:49.489581",
     "docker": null,
     "cuda": null,
     "args": [],
@@ -11,31 +11,19 @@
     "codePathLocal": null,
     "git": {
         "remote": "https://github.com/SimBoex/RemoteSensing.git",
-        "commit": "934e162f1c8853d8b32f53b838ddae71add20ccb"
+        "commit": "6230b190309bbbec20ef81ac384433df8ce53d01"
     },
     "email": "boesso.simone@hotmail.com",
     "root": "/Users/simoneboesso/Desktop/RemoteSensing",
     "host": "MBP-di-simone.home",
     "username": "simoneboesso",
-    "executable": "/Users/simoneboesso/Desktop/nuclei-segmentation/nuclei/bin/python",
+    "executable": "/Users/simoneboesso/anaconda3/envs/newww/bin/python",
     "cpu_count": 8,
     "cpu_count_logical": 8,
-    "cpu_freq": {
-        "current": 3204,
-        "min": 600,
-        "max": 3204
-    },
-    "cpu_freq_per_core": [
-        {
-            "current": 3204,
-            "min": 600,
-            "max": 3204
-        }
-    ],
     "disk": {
         "/": {
             "total": 228.27386474609375,
-            "used": 194.60606384277344
+            "used": 195.60879135131836
         }
     },
     "gpuapple": {
