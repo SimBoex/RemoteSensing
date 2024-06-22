@@ -16,8 +16,15 @@ def jacard_coef(y_true, y_pred):
 
 
 ################################################################
-def multi_unet_model(n_classes=4, IMG_HEIGHT=256, IMG_WIDTH=256, IMG_CHANNELS=1):
-#Build the model
+def multi_unet_model():
+    
+    n_classes=6
+    
+    IMG_HEIGHT=256
+    IMG_WIDTH=256
+    IMG_CHANNELS=3
+    
+    #Build the model
     inputs = Input((IMG_HEIGHT, IMG_WIDTH, IMG_CHANNELS))
     #s = Lambda(lambda x: x / 255)(inputs)   #No need for this if we normalize our inputs beforehand
     s = inputs
@@ -76,13 +83,7 @@ def multi_unet_model(n_classes=4, IMG_HEIGHT=256, IMG_WIDTH=256, IMG_CHANNELS=1)
      
     model = Model(inputs=[inputs], outputs=[outputs])
     
-    model.compile()
-
     
-    
-
-    
-    #model.summary()
     
     return model
  

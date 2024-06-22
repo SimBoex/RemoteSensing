@@ -1,0 +1,11 @@
+opencv-python
+pandas
+numpy
+tensorflow
+patchify
+matplotlib
+pillow
+scikit-learn
+scikeras[tensorflow]
+wandb
+segmentation_models
