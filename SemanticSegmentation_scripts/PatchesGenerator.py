@@ -29,7 +29,7 @@ class PatchesGenerator:
             # filter out the masks
             name_dir = path.split(os.path.sep)[-1]
             if name_dir == "images":
-                images = os.listdir(path)
+                images = sorted(os.listdir(path))
                 for i,name in enumerate(images):
                     if name.endswith(".jpg"):
                         img = cv2.imread(path+"/"+name,1) # read in BRG
@@ -65,7 +65,7 @@ class PatchesGenerator:
         for path, subdirs, files in os.walk(self.PATH):
             dirname = path.split(os.path.sep)[-1]
             if dirname == 'masks':   #Find all 'masks' directories
-                masks = os.listdir(path)  
+                masks = sorted(os.listdir(path))
                 for i, mask_name in enumerate(masks):  
                     if mask_name.endswith(".png"):   
     
