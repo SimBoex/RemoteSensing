@@ -12,3 +12,6 @@ Here I include some projects in python for remote sensing!
   ![img1](https://github.com/SimBoex/RemoteSensing/blob/6e393f39eda12bb88a09781afa3442b7f800336c/Wandb_images/W%26B%20Chart%2025_06_2024%2C%2015_44_46.png)
 
 
+  Observation: it is possible to improve the performances improving the convergence of the models (Train-Val losses)
+
+
