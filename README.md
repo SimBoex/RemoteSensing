@@ -13,5 +13,8 @@ Here I include some projects in python for remote sensing!
 
 
   Observation: it is possible to improve the performances improving the convergence of the models (Train-Val losses)
+     1. Performing a more in depth Grid-search;
+     2. Expand the Grid-search using a CV;
+     3. add a LR-schedulere to improve the convergence;
 
 
