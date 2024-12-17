@@ -1,8 +1,10 @@
 # RemoteSensing
-Here I include some projects in python for remote sensing!
+
+![alt text](https://github.com/SimBoex/RemoteSensing/blob/a6bb136d9fda2caca6fd9da88827fd3a430e9562/Folder_Name.jpg)
 
 
-1. For the semantic segmentation:
+
+1. Semantic segmentation task:
    I used wandb for the first time and applied a procedure learnt during the university to fine tune the hyperparameters without using a ton of GPU.
    Some code and ideas is taken from [here](https://www.youtube.com/@DigitalSreeni)
 
